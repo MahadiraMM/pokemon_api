@@ -1,0 +1,127 @@
+/* Pokémon Type Colors */
+
+/* Type Background Colors */
+.type-normal { background-color: #A8A878; color: white; }
+.type-fire { background-color: #F08030; color: white; }
+.type-water { background-color: #6890F0; color: white; }
+.type-grass { background-color: #78C850; color: white; }
+.type-electric { background-color: #F8D030; color: #333; }
+.type-ice { background-color: #98D8D8; color: #333; }
+.type-fighting { background-color: #C03028; color: white; }
+.type-poison { background-color: #A040A0; color: white; }
+.type-ground { background-color: #E0C068; color: #333; }
+.type-flying { background-color: #A890F0; color: white; }
+.type-psychic { background-color: #F85888; color: white; }
+.type-bug { background-color: #A8B820; color: white; }
+.type-rock { background-color: #B8A038; color: white; }
+.type-ghost { background-color: #705898; color: white; }
+.type-dark { background-color: #705848; color: white; }
+.type-dragon { background-color: #7038F8; color: white; }
+.type-steel { background-color: #B8B8D0; color: #333; }
+.type-fairy { background-color: #EE99AC; color: #333; }
+
+/* Type Background Colors with Opacity */
+.type-bg-normal { background-color: rgba(168, 168, 120, 0.2); }
+.type-bg-fire { background-color: rgba(240, 128, 48, 0.2); }
+.type-bg-water { background-color: rgba(104, 144, 240, 0.2); }
+.type-bg-grass { background-color: rgba(120, 200, 80, 0.2); }
+.type-bg-electric { background-color: rgba(248, 208, 48, 0.2); }
+.type-bg-ice { background-color: rgba(152, 216, 216, 0.2); }
+.type-bg-fighting { background-color: rgba(192, 48, 40, 0.2); }
+.type-bg-poison { background-color: rgba(160, 64, 160, 0.2); }
+.type-bg-ground { background-color: rgba(224, 192, 104, 0.2); }
+.type-bg-flying { background-color: rgba(168, 144, 240, 0.2); }
+.type-bg-psychic { background-color: rgba(248, 88, 136, 0.2); }
+.type-bg-bug { background-color: rgba(168, 184, 32, 0.2); }
+.type-bg-rock { background-color: rgba(184, 160, 56, 0.2); }
+.type-bg-ghost { background-color: rgba(112, 88, 152, 0.2); }
+.type-bg-dark { background-color: rgba(112, 88, 72, 0.2); }
+.type-bg-dragon { background-color: rgba(112, 56, 248, 0.2); }
+.type-bg-steel { background-color: rgba(184, 184, 208, 0.2); }
+.type-bg-fairy { background-color: rgba(238, 153, 172, 0.2); }
+
+/* Type Text Colors */
+.type-text-normal { color: #A8A878; }
+.type-text-fire { color: #F08030; }
+.type-text-water { color: #6890F0; }
+.type-text-grass { color: #78C850; }
+.type-text-electric { color: #F8D030; }
+.type-text-ice { color: #98D8D8; }
+.type-text-fighting { color: #C03028; }
+.type-text-poison { color: #A040A0; }
+.type-text-ground { color: #E0C068; }
+.type-text-flying { color: #A890F0; }
+.type-text-psychic { color: #F85888; }
+.type-text-bug { color: #A8B820; }
+.type-text-rock { color: #B8A038; }
+.type-text-ghost { color: #705898; }
+.type-text-dark { color: #705848; }
+.type-text-dragon { color: #7038F8; }
+.type-text-steel { color: #B8B8D0; }
+.type-text-fairy { color: #EE99AC; }
+
+/* Type Border Colors */
+.type-border-normal { border-color: #A8A878; }
+.type-border-fire { border-color: #F08030; }
+.type-border-water { border-color: #6890F0; }
+.type-border-grass { border-color: #78C850; }
+.type-border-electric { border-color: #F8D030; }
+
+/* Stat Bar Colors */
+.stat-hp { background-color: #FF5959; }
+.stat-attack { background-color: #F5AC78; }
+.stat-defense { background-color: #FAE078; }
+.stat-sp-atk { background-color: #9DB7F5; }
+.stat-sp-def { background-color: #A7DB8D; }
+.stat-speed { background-color: #FA92B2; }
+
+/* Stat Background Colors */
+.stat-bg-hp { background-color: rgba(255, 89, 89, 0.2); }
+.stat-bg-attack { background-color: rgba(245, 172, 120, 0.2); }
+.stat-bg-defense { background-color: rgba(250, 224, 120, 0.2); }
+.stat-bg-sp-atk { background-color: rgba(157, 183, 245, 0.2); }
+.stat-bg-sp-def { background-color: rgba(167, 219, 141, 0.2); }
+.stat-bg-speed { background-color: rgba(250, 146, 178, 0.2); }
+
+/* Type Badge Styling */
+.type-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    text-align: center;
+    min-width: 60px;
+}
+
+/* Type Icon Colors */
+.type-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* Pokémon Card Type Headers */
+.card-header-normal { background: linear-gradient(135deg, #A8A878, #8A8A5C); }
+.card-header-fire { background: linear-gradient(135deg, #F08030, #D87020); }
+.card-header-water { background: linear-gradient(135deg, #6890F0, #5078D0); }
+.card-header-grass { background: linear-gradient(135deg, #78C850, #60B038); }
+.card-header-electric { background: linear-gradient(135deg, #F8D030, #E0B820); }
+
+/* Shadow colors based on type */
+.shadow-normal { box-shadow: 0 4px 15px rgba(168, 168, 120, 0.3); }
+.shadow-fire { box-shadow: 0 4px 15px rgba(240, 128, 48, 0.3); }
+.shadow-water { box-shadow: 0 4px 15px rgba(104, 144, 240, 0.3); }
+.shadow-grass { box-shadow: 0 4px 15px rgba(120, 200, 80, 0.3); }
+.shadow-electric { box-shadow: 0 4px 15px rgba(248, 208, 48, 0.3); }
+
+/* Hover effects based on type */
+.hover-normal:hover { border-color: #A8A878; }
+.hover-fire:hover { border-color: #F08030; }
+.hover-water:hover { border-color: #6890F0; }
+.hover-grass:hover { border-color: #78C850; }
+.hover-electric:hover { border-color: #F8D030; }
